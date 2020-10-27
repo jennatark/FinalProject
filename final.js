@@ -5,7 +5,7 @@ var randRep = 0;
 var randInt = 0;
 
 function randExer() {
-  var listExercise = ["Push-Ups" , "Sit-Ups". "Jumping Jacks", "Plank", "Side Plank", "V-Ups", "Burpees", "Lunges",
+    var listExercise = ["Push-Ups" , "Sit-Ups", "Jumping Jacks", "Plank", "Side Plank", "V-Ups", "Burpees", "Lunges",
                       "Side Lunges", "High Knees", "Donkey Kicks", "Inchworm", "Tuck Jumps","Mountain Climber", "Wall Sit",
                       "Calf Raise", "Superman", "Arm Circles", "Russian Twist", "Bicycles", "Crunches", "Downward Dog",
                       "Single Leg Dead Lifts", "Sprints", "Pump Squats"];
