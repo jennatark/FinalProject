@@ -12,6 +12,6 @@ function randExer() {
     randInt = Math.floor(Math.random() * 25);
     randRep = Math.floor(Math.random() + 1 * 60);
     //result = 
-    result.innerHTML = "Do " + listExcercise[randInt] + " for " + randRep + " seconds";;
+    result.innerHTML = "Do " + listExcercise[randInt] + " for " + randRep + " seconds";
 
 }
