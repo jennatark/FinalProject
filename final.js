@@ -11,7 +11,7 @@ function randExer() {
                       "Single Leg Dead Lifts", "Sprints", "Pump Squats"];
     randInt = Math.floor(Math.random() * 25);
     randRep = Math.floor(Math.random() + 1 * 60);
-    //result =
-    document.getElementById("result").innerHTML = "Do " + listExcercise[randInt] + " for " + randRep + " seconds";
+    result = "Do " + listExcercise[randInt] + " for " + randRep + " seconds";
+    document.getElementById("result").innerHTML = result;
 
 }
