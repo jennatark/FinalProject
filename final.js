@@ -3,7 +3,7 @@
 //index page that shows title, instructions and list of all
 var randRep = 0;
 var randInt = 0;
-var result = "";
+
 function randExer() {
   var listExcercise = ["Push-Ups" , "Sit-Ups". "Jumping Jacks", "Plank", "Side Plank", "V-Ups", "Burpees", "Lunges",
                       "Side Lunges", "High Knees", "Donkey Kicks", "Inchworm", "Tuck Jumps","Mountain Climber", "Wall Sit",
@@ -11,7 +11,7 @@ function randExer() {
                       "Single Leg Dead Lifts", "Sprints", "Pump Squats"];
     randInt = Math.floor(Math.random() * 25);
     randRep = Math.floor(Math.random() + 1 * 60);
-    //result = 
-    result.innerHTML = "Do " + listExcercise[randInt] + " for " + randRep + " seconds";
+    //result =
+    document.getElementById("result").innerHTML = "Do " + listExcercise[randInt] + " for " + randRep + " seconds";
 
 }
